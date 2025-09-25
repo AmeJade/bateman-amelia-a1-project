@@ -18,6 +18,7 @@ Console.WriteLine("Yes | No");
 string choice2 = Console.ReadLine();
 
 //This section is responsible for processing the user's choices in each floor
+
 //floor 2
 
 if (choice2 == "Yes") Console.WriteLine("You selected the second floor and are quickly taken to a strange looking, almost swamp like enviorment.");
@@ -44,7 +45,7 @@ else if (floor2choice3 == "Grab it's head and poke it's eyeballs with your finge
 
 
 //floor 3
-Console.WriteLine("Upon selecting the third floor and are quickly taken to what appears to be a dark and dingy cave.");
+Console.WriteLine("Upon selecting the third floor, you are quickly taken to what appears to be a dark and dingy cave.");
 Console.WriteLine("You stepped out of the elevator and into the cave. You see stalagmites and stalagtites everywhere, slowly dripping and catching water droplets respectivley.");
 Console.WriteLine("The room is oddly small featuring a door and a chest among the otherwise natural looking cave enviorment. What do you do?"); Console.WriteLine("Open the door | Inspect the chest");
 
@@ -66,10 +67,16 @@ else if (floor3choice3 == "Stab the stalagmite through the Mimic's tounge") Cons
 
 
 //floor 4
-if (floorchoice == "4") Console.WriteLine("");
+Console.WriteLine("Upon selecting the fourth floor, you are taken to a completley blank room.");
+Console.WriteLine("You hear nothing.");
+Console.WriteLine("You see nothing.");
+Console.WriteLine("There is nothing.");
+Console.WriteLine("It has just dawned on you that all of this was for nothing, your exestiance in this universe solely exists to be observed and evaluated.");
+Console.WriteLine("There is nothing left, except nothing. THE END");
 
-//floor 5
-if (floorchoice == "5") Console.WriteLine("");
+
+
+
 
 
 
